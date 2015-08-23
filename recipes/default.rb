@@ -22,7 +22,6 @@ package 'lvm2'
 chef_gem 'di-ruby-lvm-attrib' do
   action :install
   version node['lvm']['di-ruby-lvm-attrib']['version']
-  source 'https://github.com/MMatten/di-ruby-lvm-attrib/tree/add-support-for-2.2.115(2)'
 end
 
 chef_gem 'di-ruby-lvm' do
